@@ -1,0 +1,22 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+section {
+  margin-bottom: 30px;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.box.active {
+  background-color: lightcoral;
+}
+button {
+  margin: 5px 0;
+}
